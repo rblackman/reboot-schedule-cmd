@@ -1,0 +1,14 @@
+.button {
+	width: 1.5rem;
+	height: 1.5rem;
+	background-color: transparent;
+	color: var(--color);
+	border: none;
+	font-size: 1.5rem;
+	-webkit-appearance: none;
+}
+
+.button svg {
+	fill: var(--color);
+	width: 1.5rem;
+}
