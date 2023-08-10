@@ -7,7 +7,7 @@ const value = '12:00:00';
 const newValue = '12:30:00';
 const labelText = 'Test Label';
 
-describe('IconButtonTemplate', () => {
+describe('TimeInputTemplate', () => {
 	it('Renders', () => {
 		render(<TimeInputTemplate id={id} value={value} label={labelText} onChange={() => { }} />);
 

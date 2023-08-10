@@ -50,6 +50,8 @@
 	--color: var(--blue);
 	--text: var(--black);
 	--bg: var(--white);
+	--status-color: var(--color);
+	--status-error: var(--red);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,6 +73,8 @@
 		--color: var(--black);
 		--text: var(--black);
 		--bg: var(--white);
+		--status-color: var(--text);
+		--status-error: var(--text);
 	}
 }
 

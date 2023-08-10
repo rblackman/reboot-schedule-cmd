@@ -7,7 +7,7 @@ const value = 0
 const newValue = value + 1;
 const labelText = 'Test Label';
 
-describe('IconButtonTemplate', () => {
+describe('NumberInputTemplate', () => {
 	it('Renders', () => {
 		render(<NumberInputTemplate id={id} value={value} label={labelText} onChange={() => { }} />);
 
