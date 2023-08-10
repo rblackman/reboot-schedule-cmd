@@ -3,7 +3,7 @@ import IconButton, { IconButtonTemplateProps } from './iconButtonTemplate';
 import mockIconButtonTemplateProps from './iconButtonTemplate.mocks';
 
 const meta = {
-	title: 'templates/IconButtonTemplate',
+	title: 'templates/buttons/IconButtonTemplate',
 	component: IconButton,
 	argTypes: {
 		type: {
