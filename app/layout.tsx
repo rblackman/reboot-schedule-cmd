@@ -1,8 +1,10 @@
 import PrimaryLayout from '@components/layouts/primary/primaryLayout';
-import { Overpass } from 'next/font/google';
+import clsx from 'clsx';
+import { Noto_Sans_Mono, Rubik } from 'next/font/google';
 import './globals.css';
 
-const overpass = Overpass({ subsets: ['latin'] });
+const noto = Noto_Sans_Mono({ subsets: ['latin'] });
+const rubik = Rubik({ subsets: ['latin'] });
 
 export const metadata = {
 	title: 'Create Next App',
@@ -12,8 +14,7 @@ export const metadata = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">
-			<body className={overpass.className}>
-
+			<body className={clsx({ [noto.className]: true, [rubik.className]: true })}>
 				<PrimaryLayout>
 					{children}
 				</PrimaryLayout>
