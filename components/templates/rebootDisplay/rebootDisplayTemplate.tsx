@@ -1,5 +1,5 @@
+import IconButton from '@components/templates/iconButton/iconButtonTemplate';
 import { ReactNode } from 'react';
-import IconButton from '../iconButton/iconButtonTemplate';
 import styles from './rebootDisplayTemplate.module.css';
 
 export interface RebootDisplayTemplateProps {
