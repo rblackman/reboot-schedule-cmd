@@ -5,6 +5,8 @@ import { Metadata } from 'next';
 import { Noto_Sans_Mono, Rubik } from 'next/font/google';
 import './globals.css';
 
+export const runtime = 'edge';
+
 const noto = Noto_Sans_Mono({ subsets: ['latin'] });
 const rubik = Rubik({ subsets: ['latin'] });
 
