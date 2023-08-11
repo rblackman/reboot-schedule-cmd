@@ -1,5 +1,6 @@
 import PrimaryLayout from '@components/layouts/primary/primaryLayout';
 import throwError from '@helpers/throwError';
+import { Analytics } from '@vercel/analytics/react';
 import clsx from 'clsx';
 import { Metadata } from 'next';
 import { Noto_Sans_Mono, Rubik } from 'next/font/google';
@@ -84,6 +85,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 				<PrimaryLayout>
 					{children}
 				</PrimaryLayout>
+				<Analytics />
 			</body>
 		</html>
 	);
