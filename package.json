@@ -4,6 +4,7 @@
 		"url": "https://github.com/rblackman"
 	},
 	"dependencies": {
+		"@vercel/analytics": "^1.0.2",
 		"client-only": "^0.0.1",
 		"clsx": "^2.0.0",
 		"dayjs": "^1.11.9",
