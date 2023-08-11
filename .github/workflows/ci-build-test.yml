@@ -41,6 +41,6 @@ jobs:
       - name: Install Dependancies
         run: npm install
       - name: Build
-        run: npm run build && cat .next/server/app/index.html
+        run: npm run build
       - name: Test
         run: npm run test:ci
