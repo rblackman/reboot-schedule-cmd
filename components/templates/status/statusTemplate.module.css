@@ -1,0 +1,22 @@
+.wrapper {
+	--bottom: -3rem;
+
+	position: fixed;
+
+	bottom: var(--bottom);
+	right: 1rem;
+	border: 1px solid var(--status-color);
+	color: var(--status-color);
+	padding: 0.25rem 1rem;
+	transition: var(--transition) bottom ease-out;
+	background: transparent;
+}
+
+.wrapper.open {
+	--bottom: 1rem;
+	transition: var(--transition) bottom ease-in;
+}
+
+.wrapper.error {
+	--status-color: var(--status-error);
+}

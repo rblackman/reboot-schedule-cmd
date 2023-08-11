@@ -1,0 +1,83 @@
+{
+	"$schema": "https://json.schemastore.org/web-manifest-combined.json",
+	"background_color": "#1B262C",
+	"categories": ["tech", "utilities", "it"],
+	"description": "A quick tool to copy a reboot command for rebooting at a specific time.",
+	"display": "standalone",
+	"icons": [
+		{
+			"purpose": "any",
+			"sizes": "16x16",
+			"src": "/icon-16.png",
+			"type": "image/png"
+		},
+		{
+			"purpose": "any",
+			"sizes": "32x32",
+			"src": "/icon-32.png",
+			"type": "image/png"
+		},
+		{
+			"purpose": "any",
+			"sizes": "180x180",
+			"src": "/icon-180.png",
+			"type": "image/png"
+		},
+		{
+			"purpose": "any",
+			"sizes": "144x144",
+			"src": "/icon-144.png",
+			"type": "image/png"
+		},
+		{
+			"purpose": "any",
+			"sizes": "168x168",
+			"src": "/icon-168.png",
+			"type": "image/png"
+		},
+		{
+			"purpose": "any",
+			"sizes": "192x192",
+			"src": "/icon-192.png",
+			"type": "image/png"
+		},
+		{
+			"purpose": "any",
+			"sizes": "512x512",
+			"src": "/icon-512.png",
+			"type": "image/png"
+		},
+		{
+			"purpose": "any",
+			"sizes": "any",
+			"src": "icon.svg",
+			"type": "image/svg+xml"
+		},
+		{
+			"purpose": "maskable",
+			"sizes": "512x512",
+			"src": "/icon-maskable-512.png",
+			"type": "image/png"
+		},
+		{
+			"purpose": "maskable monochrome",
+			"sizes": "512x512",
+			"src": "/icon-maskable-mono-512.png",
+			"type": "image/png"
+		}
+	],
+	"name": "Reboot When",
+	"scope": "/",
+	"screenshots": [
+		{
+			"label": "Application UI",
+			"platform": "narrow",
+			"sizes": "1170x2532",
+			"src": "/screenshot.png",
+			"type": "image/png"
+		}
+	],
+	"short_name": "Reboot",
+	"start_url": ".",
+	"theme_color": "#bbe1fa"
+}

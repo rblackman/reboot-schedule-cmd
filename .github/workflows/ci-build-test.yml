@@ -8,7 +8,8 @@ on:
     branches: ['main']
 
 env:
-  API_ENDPOINT: ${{ vars.API_ENDPOINT }}
+  NEXT_PUBLIC_SITE_NAME: ${{ vars.NEXT_PUBLIC_SITE_NAME }}
+  NEXT_PUBLIC_URL: ${{ vars.NEXT_PUBLIC_URL }}
 
 jobs:
   build:
