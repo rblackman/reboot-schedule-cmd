@@ -16,7 +16,7 @@
 		"sharp": "^0.32.4"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.6.7",
+		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-conventional": "^17.6.7",
 		"@storybook/addon-a11y": "^7.4.0",
 		"@storybook/addon-essentials": "^7.4.0",
